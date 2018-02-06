@@ -6,7 +6,8 @@ def fizzbuzz(num)
     return "Buzz"
   when num / 3 ==0 && num / 5 == 0
     return "FizzBuzz"
-  else
-    return nil
+  
+  #else
+   # return nil
   end
 end
