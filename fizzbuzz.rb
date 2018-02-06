@@ -1,5 +1,5 @@
 def fizzbuzz(num)
-  case num
+  case 
   when num  / 3 == 0
     return "Fizz"
   when num / 5 == 0
