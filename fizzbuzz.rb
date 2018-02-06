@@ -1,4 +1,5 @@
 def fizzbuzz(num)
   case num
-  when 
+  when num / 3
+    
 end
