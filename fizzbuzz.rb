@@ -4,5 +4,7 @@ def fizzbuzz(num)
     return "Fizz"
   when num / 5
     return "Buzz"
-  when num
+  when num / 3 && num / 5
+    return "FizzBuzz"
+  end
 end
